@@ -1,0 +1,10 @@
+on:
+  schedule:
+    # Runs at 12:00 UTC (noon) every day
+    - cron: "0 12 * * *"
+  workflow_dispatch: # Allows manual triggering
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3000008@ds.study.iitm.ac.in
